@@ -1,0 +1,27 @@
+2.Rutina diaria
+1.Inicio
+2.Despertarme 5:00 am
+3.Levantarme de la cama
+4.Alistarse
+5.Empacar la comida del día
+6.Dirigirse en el vehiculo al trabajo a las 6:00 am
+7.Ingresar a las oficinas 6:25 am
+8.Ingresar a la computadora a las 6:30 am
+9.Leer el correo electronico y si hay tickets y son para realizar en el día
+9.1 Categorizar los tickets
+9.2 Sino, revisar los sistemas y si requieren mantenimientos
+Aplicar mantenimientos
+9.3 Sino, verificar actualizaciones en los sistemas y si hay actualizaciones
+Aplicar Actualizaciones
+10.Almorzar a las 12:00md
+11.Revisar a partir de la 1:00 pm si hay tickets que se generaron durante el transcuro del día
+11.1 Sino, seguir con los mantenimientos
+12.Finalizar jornada a las 4:30pm
+13 Si es Lunes y miércoles
+13.1 Finalizar jornada a la 6:00pm
+14 Dirigirse a la casa
+15 Preparar los alimentos y uniforme del día siguiente
+16 Limpiar casa
+17 Estudiar a partir de las 9:00 pm
+18 Preparme para dormir a las 11:00 pm
+Fin

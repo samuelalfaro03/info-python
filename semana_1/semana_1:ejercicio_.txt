@@ -1,0 +1,17 @@
+1. Inicio
+2. Ver un video en Youtube
+3. Verificar que el dispositivo tenga internet
+4. Seleccionar la plataforma en especifico a utilizar
+4.1 Aplicación de Youtube en el dispositivo
+4.2 Navegador web
+5. [Si](http://5.si/) utiliza la aplicación de Youtube:
+5.1 Dirigirse a la barra de busqueda en la aplicación
+5.2 Escribir el titulo o descripcion de lo que desea ver
+5.3 Seleccionar alguna de la opciones sugeridas
+6. [Si](http://6.si/) utiliza navegador:
+6.1 Dirigirse a la barra de busqueda en el navegador
+6.2 Escribir Youtube y presionar enter
+6.3 Seleccionar la cuenta verificada que aparece al inicio
+6.4 Escribir el titulo o descripcion de lo que desea ver
+6.5 Seleccionar alguna de la opciones sugeridas
+7. Fin

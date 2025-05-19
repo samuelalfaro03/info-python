@@ -1,0 +1,20 @@
+1. Dado un tiempo en segundos, calcule si es menor o mayor a 10 minutos.
+ Si es menor, muestre cuantos segundos faltarían para llegar a 10 minutos.
+        Ejemplos:
+     1040 → Mayor
+     140 → 460
+
+
+     1.Inicio
+2.Definir Segundos
+3.Definir Diferencia
+4.Mostrar "Ingrese el tiempo en segundos"
+5.Solicitar Segundos
+6.Si  (Segundos < 600 ) entonces:
+    1. Diferencia = 600 - segundos
+7.Mostrar ‘’La cantidad de segundos faltantes es ’’
+8.Mostrar Diferencia
+9.Sino
+.Si (segundos ≥ 600) entonces:
+10.Mostrar ‘’La cantidad es mayor a Diez minutos’’
+11.Fin

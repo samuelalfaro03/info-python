@@ -1,0 +1,18 @@
+1. Dado un precio de un producto, calcular el descuento y mostrar el precio final tomando en cuenta que:
+    1. Si el precio es menor a 100, el descuento es del 2%.
+    2. Si el precio es mayor o igual a 100, el descuento es del 10%.
+    
+1.Inicio
+2.Definir precio
+3.Definir descuento
+4.Mostrar "Ingrese el precio del producto"
+5.Solicitar precio
+6.Si (precio ≤ 99) entonces:
+a. descuento = precio *0.2
+7.Sino
+a. Si (precio ≥ 100) entonces:
+i. descuento = precio *0.10
+8.precio_final = precio - descuento
+9.Mostrar "El precio es de"
+10.Mostrar precio_final
+11.Fin
