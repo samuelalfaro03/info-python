@@ -1,13 +1,17 @@
 # 2. Lea sobre el resto de métodos de la clase File de Python aquí y cree una tabla donde explique qué hace cada uno. No necesita usar código para esto, es solo crear una tabla en Notion o Word.
 
-read	Lee todo el contenido del archivo como un solo texto
-readable	devuelve un True si el archivo se puede leer
-readline	Lee y devuelve una solo linea del archivo
-readlines	lee todas las lineas del archivo y las devuelve como una lista
-seek	Mueve el cursor a otro lugar del archivo.
-seekable	Devuelve un True si el archivo permite mver el cursor. Seek
-tell	devuelve donde está el cursor actual en el archivo con caracteres
-truncate	corta el archivo desde cierta posición. Puede usarse para borrar parte del contenido
-writable	Devuelve True si el archivo se puede escribir
-write	Escribe un text en el archivo. Si no se agrega un salto de linea manual, todo seguido
-writelines	escribe una lista de lineas en el archivo. No agrega saltos de línea automaticos.
+read()	Lee y retorna todo el contenido del archivo como una sola cadena.
+readline()	Lee y retorna la siguiente línea del archivo (incluyendo el salto de línea).
+readlines()	Lee todo el archivo y retorna una lista de líneas.
+write(cadena)	Escribe una cadena en el archivo. Sobrescribe el contenido si está en modo 'w'.
+writelines(lista)	Escribe una lista de cadenas en el archivo sin agregar saltos de línea automáticamente.
+close()	Cierra el archivo y libera los recursos asociados.
+flush()	Fuerza la escritura de los datos en el búfer hacia el disco sin cerrar el archivo.
+seek(pos)	Mueve el puntero del archivo a una posición específica (en bytes).
+tell()	Retorna la posición actual del puntero del archivo (en bytes).
+truncate(tamaño)	Corta el archivo al número de bytes especificado. Si no se indica, corta en la posición actual.
+fileno()	Retorna el descriptor de archivo entero (número) usado por el sistema operativo.
+isatty()	Retorna True si el archivo está conectado a un dispositivo tipo terminal.
+readable()	Retorna True si el archivo fue abierto en modo de lectura.
+writable()	Retorna True si el archivo fue abierto en modo de escritura.
+seekable()	Retorna True si se puede cambiar la posición del puntero (seek() es válido).
